@@ -106,7 +106,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/xiaomi/sm8250-common.config
 
 # Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/charging_enabled
 
 # Media
 TARGET_USES_ION := true
