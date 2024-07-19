@@ -366,6 +366,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.xiaomi
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.qti \
