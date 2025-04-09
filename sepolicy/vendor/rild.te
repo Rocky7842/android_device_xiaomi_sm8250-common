@@ -1,4 +1,5 @@
 # Allow rild to set IMEI props
 set_prop(rild, vendor_deviceid_prop)
+set_prop(rild, vendor_ssr_prop)
 
 allow rild vendor_data_file:file { read open getattr };
