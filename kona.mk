@@ -139,6 +139,9 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 
+# Audio (Dolby)
+$(call inherit-product-if-exists, hardware/dolby/dolby.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
