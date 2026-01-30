@@ -1,0 +1,4 @@
+# HwBinder IPC from client to server
+binder_call(hal_mtdservice_client, hal_mtdservice_server)
+
+hal_attribute_hwservice(hal_mtdservice, hal_mtdservice_hwservice)

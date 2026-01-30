@@ -1,0 +1,4 @@
+# Allow Fido UAF Service to access the vendor HAL
+hal_client_domain(platform_app, hal_mfidoca)
+binder_call(platform_app, hal_mfidoca_default)
+allow platform_app hal_mfidoca_hwservice:hwservice_manager find;

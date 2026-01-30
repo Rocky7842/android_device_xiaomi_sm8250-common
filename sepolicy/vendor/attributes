@@ -2,3 +2,16 @@
 attribute vendor_hal_citsensorservice_xiaomi;
 attribute vendor_hal_citsensorservice_xiaomi_client;
 attribute vendor_hal_citsensorservice_xiaomi_server;
+
+# Payment
+attribute hal_mfidoca;
+attribute hal_mfidoca_client;
+attribute hal_mfidoca_server;
+
+attribute hal_mtdservice;
+attribute hal_mtdservice_client;
+attribute hal_mtdservice_server;
+
+attribute hal_tidaservice;
+attribute hal_tidaservice_client;
+attribute hal_tidaservice_server;
