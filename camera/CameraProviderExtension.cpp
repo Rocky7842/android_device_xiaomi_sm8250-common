@@ -47,7 +47,7 @@ bool supportsSetTorchModeExt() {
 }
 
 int32_t getTorchDefaultStrengthLevelExt() {
-    return 50;
+    return getTorchMaxStrengthLevelExt();
 }
 
 int32_t getTorchMaxStrengthLevelExt() {
