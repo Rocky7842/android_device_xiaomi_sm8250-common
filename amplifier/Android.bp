@@ -1,0 +1,17 @@
+cc_library_shared {
+    name: "audio_amplifier.cs35l41",
+    relative_install_path: "hw",
+    vendor: true,
+    srcs: [
+        "cs35l41_audio_amplifier.c",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libhardware",
+        "libtinyalsa",
+    ],
+    header_libs: [
+        "libhardware_headers",
+    ],
+}
